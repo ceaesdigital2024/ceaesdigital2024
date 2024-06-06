@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+   
+
+}
+header .banner-contenedor {
+    width: 100%; /* El ancho del contenedor será el 100% del ancho del header */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción de la imagen */
+    overflow: hidden; /* Oculta la parte de la imagen que se salga del contenedor */
+   
+}
+
+header .banner-contenedor img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+background-color: #faf9f9;
+}
+
+.entradas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.entrada {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.entrada img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.entrada h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.entrada h2 a {
+    color: #111213; /* Color  */
+    text-decoration: none; /* Elimina el subrayado */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 20px; /* Cambia el tamaño de la fuente a 14px */ 
+    
+}
+
+.entrada a.leer-mas {
+    color: #007bff; /* Color azul */
+    text-decoration: none; /* Elimina el subrayado */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 14px; /* Cambia el tamaño de la fuente a 14px */
+    padding: 5px 10px; /* Agrega espacio alrededor del texto */
+    border: 1px solid #007bff; /* Agrega un borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición al pasar el cursor */
+  }
+
+  .novedades {
+    color: #111213; /* Color  */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 12px; /* Cambia el tamaño de la fuente a 10px */ 
+    
+}
+.novedades a {
+    color: #111213; /* Color  */
+    text-decoration: none; /* Elimina el subrayado */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 10px; /* Cambia el tamaño de la fuente a 10px */ 
+    }
+
+.nota {
+    color: #19191a; /* Color  */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 11x; /* Cambia el tamaño de la fuente a 12px */ 
+    text-align: justify; 
+}    
+footer{
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/*   Explicacion de la diferencia en css para que sea responsive repeat(auto-fit): Distribuye las entradas en tantas columnas como quepan en el ancho disponible.
+minmax(250px, 1fr): Cada columna tendrá un ancho mínimo de 250px, pero se expandirá para ocupar el espacio restante de manera uniforme.
+
+
+max-width: 100%: La imagen ocupará el ancho completo de su contenedor.
+height: auto: La altura de la imagen se ajustará proporcionalmente para mantener la relación de aspecto original.
+*/
