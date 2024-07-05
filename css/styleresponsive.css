@@ -116,6 +116,7 @@ main {
     font-size: 11x; /* Cambia el tamaño de la fuente a 12px */ 
     text-align: justify; 
     margin-left: 20px;
+    margin-right: 20px;
 }    
 footer{
     background-color: #f0f0f0;
