@@ -52,6 +52,13 @@ main {
     padding: 20px;
     background-color: #faf9f9;
 }
+.mainsobrenosotros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #faf9f9;
+}
 
 .entradas {
     display: grid;
@@ -129,8 +136,10 @@ footer{
 }
 
 .imagen-verti{
-    height: 40%;
-    width: 30%;
+   
+  
+    height:90%;
+    width: auto;
 }
 /*   Explicacion de la diferencia en css para que sea responsive repeat(auto-fit): Distribuye las entradas en tantas columnas como quepan en el ancho disponible.
 minmax(250px, 1fr): Cada columna tendrá un ancho mínimo de 250px, pero se expandirá para ocupar el espacio restante de manera uniforme.
