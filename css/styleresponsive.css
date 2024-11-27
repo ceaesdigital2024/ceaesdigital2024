@@ -131,15 +131,13 @@ footer{
 
 }
 .imagenes-de-nota {
-    width: 70% ;
+    width: 90% ;
     height: auto;
 }
 
 .imagen-verti{
-   
-  
-    height:90%;
-    width: auto;
+    width: 60% ;
+    height: auto;
 }
 /*   Explicacion de la diferencia en css para que sea responsive repeat(auto-fit): Distribuye las entradas en tantas columnas como quepan en el ancho disponible.
 minmax(250px, 1fr): Cada columna tendrá un ancho mínimo de 250px, pero se expandirá para ocupar el espacio restante de manera uniforme.
@@ -148,3 +146,5 @@ minmax(250px, 1fr): Cada columna tendrá un ancho mínimo de 250px, pero se expa
 max-width: 100%: La imagen ocupará el ancho completo de su contenedor.
 height: auto: La altura de la imagen se ajustará proporcionalmente para mantener la relación de aspecto original.
 */
+
+.frame{flex: auto;}
